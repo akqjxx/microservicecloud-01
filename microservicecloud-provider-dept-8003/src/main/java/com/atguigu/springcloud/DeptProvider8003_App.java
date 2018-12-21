@@ -12,7 +12,7 @@ public class DeptProvider8003_App
   {
 	  
    SpringApplication.run(DeptProvider8003_App.class, args);
-   System.out.println("启动---  --成功");
+   System.out.println("启动---dd    --成功");
   }
 }
  
