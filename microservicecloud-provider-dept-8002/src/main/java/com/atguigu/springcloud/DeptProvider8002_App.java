@@ -11,6 +11,7 @@ public class DeptProvider8002_App
   public static void main(String[] args)
   {
    SpringApplication.run(DeptProvider8002_App.class, args);
+   System.out.println("------------------启动成功----------");
   }
 }
  
