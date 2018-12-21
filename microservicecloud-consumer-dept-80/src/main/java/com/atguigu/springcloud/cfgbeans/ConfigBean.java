@@ -23,6 +23,7 @@ public class ConfigBean
     {
     	//return new RoundRobinRule();//轮训
     	//return new RandomRule();//随机
+    	//return new RandomRule();//随机
     	return new RetryRule();   //掉过挂了的应用。
     	
     }
