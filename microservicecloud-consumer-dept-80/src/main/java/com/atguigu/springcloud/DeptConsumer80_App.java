@@ -16,12 +16,25 @@ public class DeptConsumer80_App
 {
 	
 	
-	
+	/**
+	 * 
+	 * 
+	 * 
+	 * 
+	 * @param args
+	 */
 	
 	
   public static void main(String[] args)
   {
    SpringApplication.run(DeptConsumer80_App.class, args);
   }
+  
+  
+  
+  
+  
+  
+  
 }  
  
