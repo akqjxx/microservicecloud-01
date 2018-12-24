@@ -22,6 +22,7 @@ public class DeptDTO implements java.io.Serializable{
 	private String dname; // 部门名称
 	private String db_source;
 	private Timestamp createTime;
+	private String loginNo;
 	
 	
 
