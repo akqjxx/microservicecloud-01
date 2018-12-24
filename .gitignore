@@ -6,3 +6,17 @@
 /microservicecloud-provider-dept-8001/
 /microservicecloud-provider-dept-8002/
 /microservicecloud-provider-dept-8003/
+.settings
+.project
+target
+.classpath
+*.gitignore
+*.o
+*.so
+*.log
+*~
+.*.swp
+*.a
+*.gch
+*.dir
+*.class
