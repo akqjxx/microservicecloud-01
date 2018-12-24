@@ -32,7 +32,9 @@ public class DeptController {
 
 	@RequestMapping(value = "/dept/list", method = RequestMethod.GET)
 	public List<Dept> list() {
-		DeptDTO dto = new DeptDTO();
+	/*	
+	 * 
+	 * DeptDTO dto =  DeptDTO.of("dd").setDb_source("dd");
 		DTOConvert<DeptDTO, Dept> v = (x) -> {
 			Dept d = new Dept();
 			BeanUtils.copyProperties(x, d);
@@ -41,7 +43,10 @@ public class DeptController {
 		};
 		
 		Dept s = v.convert(dto);
-
+*/
+		
+		DeptDTO.builder().db_source("33").build();
+		DeptDTO.builder().db_source("3");
 		return service.list();
 	}
 

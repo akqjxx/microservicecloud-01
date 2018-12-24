@@ -1,18 +1,15 @@
 package com.atguigu.springcloud.dto;
  
 
-import java.sql.Timestamp;
+import java.util.Date;
 
-import javax.validation.constraints.NotNull;
-
+import lombok.Builder;
 import lombok.Data;
-import lombok.NoArgsConstructor;
-import lombok.experimental.Accessors;
+import lombok.NonNull;
 
+
+@Builder
 @Data
-@NoArgsConstructor
-@Accessors(chain = true)
- 
 public class DeptDTO implements java.io.Serializable{
 
 	/**
@@ -20,12 +17,13 @@ public class DeptDTO implements java.io.Serializable{
 	 */
 	private static final long serialVersionUID = 2189714473576358800L;
 	
-	@NotNull
 	private Long deptno; // 主键
+	@NonNull
 	private String dname; // 部门名称
 	private String db_source;
-	private Timestamp createTime;
+	private Date createTime;
 	private String loginNo;
+	
 	
 	
 
