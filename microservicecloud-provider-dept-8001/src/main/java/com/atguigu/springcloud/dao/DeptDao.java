@@ -15,5 +15,8 @@ public interface DeptDao
   
   
   public List<Dept> findAll();
+  
+  
+  
 }
  
